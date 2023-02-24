@@ -1,0 +1,23 @@
+
+
+fun main() {
+    
+    val nota1 = 7;
+    val nota2 = 10;
+    val nota3 = 0;
+    val nota4 = 10;
+    
+    println("nota1 = ${nota1}")
+    println("nota2 = ${nota2}")
+    println("nota3 = ${nota3}")
+    println("nota4 = ${nota4}")
+    println(" ")
+    println("A média semestral é ${mediaSemestral(nota1, nota2, nota3, nota4)}")
+    
+}
+
+fun mediaSemestral(n1:Int, n2:Int, n3:Int, n4:Int):Int{
+    val soma = n1 + n2+ n3+ n4;
+    val media = soma/4;
+    return media;
+}

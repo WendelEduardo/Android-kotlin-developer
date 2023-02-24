@@ -1,0 +1,21 @@
+
+
+fun main() {
+    
+    val n1 = -70.0;
+    
+    println("n1 = ${n1}")
+    println("")
+    println("${positivoOuNegativo(n1)}")
+    
+}
+
+fun positivoOuNegativo(n1:Double):String{
+    
+    if(n1 > 0){
+        return "Valor positivo"
+    }else{
+        return "Valor negativo"
+    }
+        
+}

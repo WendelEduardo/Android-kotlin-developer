@@ -1,0 +1,12 @@
+
+
+fun main() {
+    
+    val raioDoCirculo = 7;
+    println("Area do Circulo = ${areaDoCirculo(raioDoCirculo)}")
+    
+}
+
+fun areaDoCirculo(raio:Int):Double{
+    return 3.14*(raio*raio);
+}

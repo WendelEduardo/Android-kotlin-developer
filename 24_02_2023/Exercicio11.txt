@@ -1,0 +1,23 @@
+
+
+fun main() {
+    
+    val n1 = 70.0;
+    val n2 = 50.0;
+    
+    println("n1 = ${n1}")
+    println("n2 = ${n2}")
+    println("")
+    println("Valor maior = ${maiorValor(n1, n2)}")
+    
+}
+
+fun maiorValor(n1:Double, n2:Double):Double{
+    
+    if(n1 > n2){
+        return n1
+    }else{
+        return n2
+    }
+        
+}

@@ -1,0 +1,21 @@
+
+
+fun main() {
+    
+    val n1 = 0;
+    
+    println("n1 = ${n1}")
+    println("")
+	println("${parOuImpar(n1)}")
+    
+}
+
+fun parOuImpar(n1:Int):String{
+    
+   	if(n1 % 2 == 0){
+        return "Par"
+    }else{
+        return "Impar"
+    }
+        
+}

@@ -1,0 +1,17 @@
+
+
+fun main() {
+    
+    val valorPorHora:Double = 10.0;
+    val horasTrabalhadas:Double = 90.0;
+    
+    println("Valor por hora = ${valorPorHora}")
+    println("Hora Trabalhadas = ${horasTrabalhadas}")
+    println("")
+    println("Salario = R$${calculoSalario(valorPorHora, horasTrabalhadas)}")
+    
+}
+
+fun calculoSalario(valor:Double, horas:Double):Double{
+    return valor*horas;
+}

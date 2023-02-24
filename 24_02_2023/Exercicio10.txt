@@ -1,0 +1,15 @@
+
+
+fun main() {
+    
+    val celsius:Double = 40.0;
+    
+    println("Celsius = ${celsius}")
+    println("")
+    println("Farenheit = ${CelsiusTofarenheit(celsius)}")
+    
+}
+
+fun CelsiusTofarenheit(celsius:Double):Double{
+    return celsius*1.8+32;
+}

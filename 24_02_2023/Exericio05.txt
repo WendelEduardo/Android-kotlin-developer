@@ -1,0 +1,14 @@
+
+
+fun main() {
+    
+    val metro = 7;
+    
+    println("Metro = ${metro}")
+    println("Centrimetro = ${metroParaCentrimetro(metro)}")
+    
+}
+
+fun metroParaCentrimetro(metro:Int):Int{
+    return metro*100;
+}

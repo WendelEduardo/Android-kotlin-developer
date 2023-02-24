@@ -1,0 +1,15 @@
+
+
+fun main() {
+    
+    val base:Double = 7.0;
+    val altura:Double = 7.0;
+    
+    println("Area do Quadrado = ${areaDoQuadrado(base, altura)}")
+    println("Dobro da Area do Quadrado = ${areaDoQuadrado(base, altura)*2}")
+    
+}
+
+fun areaDoQuadrado(base:Double, altura:Double):Double{
+    return base*altura;
+}

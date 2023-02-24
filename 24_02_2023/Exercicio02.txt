@@ -1,0 +1,9 @@
+
+
+fun main() {
+    
+    println("O número informado foi ${retornaNumero(2)}")
+    
+}
+
+fun retornaNumero(n1:Int):Int { return n1 }

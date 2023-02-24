@@ -1,0 +1,23 @@
+
+
+fun main() {
+    
+    val sexo = "M";
+    
+    println("sexo = ${sexo}")
+    println("")
+    println("${verificar(sexo)}")
+    
+}
+
+fun verificar(n1:String):String{
+    
+   	if(n1 == "F" || n1 == "f"){
+        return "F - Feminino"
+    }else if(n1 == "M" || n1 == "m"){
+        return "M - Masculino"
+    }else{
+        return "Sexo Inválido"
+    }
+        
+}

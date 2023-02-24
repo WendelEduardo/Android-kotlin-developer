@@ -1,0 +1,14 @@
+
+
+fun main() {
+    
+    val numero1 = 7;
+    val numero2 = 100;
+    
+    println("A soma de ${numero1} e ${numero2}, é ${somaNumeros(numero1, numero2)}")
+    
+}
+
+fun somaNumeros(n1:Int, n2:Int):Int{
+    return n1.plus(n2);
+}
